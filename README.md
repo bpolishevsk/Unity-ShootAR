@@ -6,7 +6,6 @@ ShootAR is an AR game for Android built with the Unity game engine. Enemies appe
 and the player uses the phone's camera and gyroscope to aim and shoot them.
 
 *If you have a question that was not answered in this readme or the
-[closed issues](https://github.com/AnimaRain/ShootAR/issues?q=is%3Aclosed+label%3Aquestion), or you find a mistake
 or discrepancy in this readme, you are more than welcome to open a new issue or contact one of the [maintainers](#authors).*
 
 ## Table of contents
@@ -30,7 +29,6 @@ An Android device running at least version 5.0 ("Lollipop") and it must have gyr
 
 ## Installation
 The easiest way to install ShootAR, is to download the `.apk` of the latest release from
-[here](https://github.com/AnimaRain/ShootAR/releases) to your phone and run the installation.
 
 *Note: By default, installation of APK files downloaded outside the Google Play is disabled.
 Enable "Unknown Sources" in the phone's (Security) settings.*
@@ -45,16 +43,12 @@ If you want to built it yourself, you can follow the [instructions below](#build
 In order to build the project yourself, you need to have [Unity](https://unity3d.com/) installed.
 
 ### Downloading the source files
-Download the latest released source files from [here](https://github.com/AnimaRain/ShootAR). If you prefer a previous
-or a test version, visit the [releases](https://github.com/AnimaRain/ShootAR/releases) page.
 
 Alternatively, download the source using git:
 ```
-git clone https://github.com/AnimaRain/ShootAR.git <directory> 
 ```
 or
 ```
-git clone git@github.com:AnimaRain/ShootAR.git <directory>
 ```
 where `<directory>` is the path to the desired location to download the files.
 
@@ -99,7 +93,7 @@ Now the APK file can be transferred to an android device and install it.
 Alternatively, instead of `Build`, connect an Android device with a USB cable to the computer, go to *Developer Options*
 in your phone settings, enable *USB Debugging* and set *USB Configuration* to `MTP`. In the *Build Settings* window, set
 *Run Device* to your device and hit `Build and Run`. This will do the same as `Build` in addition to installing the
-game to the selected device.
+ga
 
 *Note: If the device can not be detected by Unity, try restarting Unity while the device is already
 physically connected to the computer.*
@@ -121,33 +115,3 @@ You could, also, just share the game with your friends. It is and will always be
 ## Known issues
 1. The game has not been optimized yet in any way. After a few levels, way too many enemies appear.
 2. The video capture from the camera does not scale and ignores the screen's ratio.
-
-[More issues.](https://github.com/AnimaRain/ShootAR/issues)
-
-## Changelog
-### Version 0.5.1
-*WIP*
-
-## ~FAQ~
-
-## License
-The project is currently under the [MIT license](/LICENSE).<br/>
-
-The general gist translated in Human is that you can pretty much do anything you want with this project.
-
-Third party licenses:<br/>
-Unity Asset Store \[[license](https://unity3d.com/legal/as_terms)\]<br/>
-
-If you believe that your work has been published to this repository without permission, please contact me at
-ioannis_spyr@yahoo.gr.
-
-## Authors
-John Spyropoulos, a.k.a. AnimaRain \<ioannis_spyr@yahoo.gr\> | [@rainsoulwhisper](https://twitter.com/rainsoulwhisper)<br/>
-Ioannis Tantaoui
-
-## Credits
-A thank–you to Petros Kouvariotis for being an awesome friend, playtester and supporter!
-
-Unity store assets used:<br/>
-Drone: https://assetstore.unity.com/packages/3d/low-poly-combat-drone-82234<br/>
-Crasher: https://assetstore.unity.com/packages/3d/characters/aaron-s-assets-89273
